@@ -1,8 +1,8 @@
-c = input()
-c = int(c)
-if c > 0:
+m = input()
+m = int(m)
+if m > 0:
  print("Postive")
-elif c < 0:
+elif m < 0:
  print("Negative")
 else:
  print("Zero")
