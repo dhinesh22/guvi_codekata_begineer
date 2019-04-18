@@ -1,5 +1,5 @@
 N=int(input(""))
-list=["Hello"]
+list=["Hello\n"]
 def foo(x):
     print(x*N)
 def main(fun,list):
