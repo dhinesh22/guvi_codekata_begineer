@@ -1,8 +1,10 @@
-N=int(input())
+N=input()
+l=len(N)
 a = []
+N=int(N)
 temp=str(N)
 new = ""
-if N<=1000:
+if l<=1000:
     while N!=0:
         lastdigit=N%10
         remdigit=N//10
