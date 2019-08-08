@@ -3,10 +3,10 @@ l=len(N)
 N=int(N)
 if l<=1000:
     mid =N//2
-    for i in range(2,mid+1):
-        if N%i!=0:
-            print('yes')
-        else:
+    for i in range(2,mid):
+        if N%i==0:
             print('no')
-        break
-    
+            break
+    else:
+        print('yes')
+        
